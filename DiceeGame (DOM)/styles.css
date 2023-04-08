@@ -1,0 +1,101 @@
+body {
+    background-color: #393e46;
+}
+
+#header, #players, #footer, #start {
+    display: flex;
+}
+
+#header, #players {
+    color: #4ecca3;
+}
+
+#header, #start {
+    justify-content: center;
+}
+
+#title {
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    text-shadow: 4px 4px 1px #232931;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#players {
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 30%;
+}
+
+.player {
+    font-size: 3rem;
+    font-family: 'Indie Flower', cursive;
+    margin: 1.5rem auto 1rem auto;
+}
+
+#start {
+    margin-top: 5rem;
+}
+
+#footer {
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 3rem;
+}
+
+footer {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
+#btn {
+    background: #e03434;
+    background-image: -webkit-linear-gradient(top, #e03434, #5e1010);
+    background-image: -moz-linear-gradient(top, #e03434, #5e1010);
+    background-image: -ms-linear-gradient(top, #e03434, #5e1010);
+    background-image: -o-linear-gradient(top, #e03434, #5e1010);
+    background-image: linear-gradient(to bottom, #e03434, #5e1010);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 42px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+#btn:hover {
+    background: #eb3636;
+    background-image: -webkit-linear-gradient(top, #eb3636, #781414);
+    background-image: -moz-linear-gradient(top, #eb3636, #781414);
+    background-image: -ms-linear-gradient(top, #eb3636, #781414);
+    background-image: -o-linear-gradient(top, #eb3636, #781414);
+    background-image: linear-gradient(to bottom, #eb3636, #781414);
+    text-decoration: none;
+}
+
+@media (min-width: 416px) and (max-width: 570px) {
+    #title {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 348px) and (max-width: 416px) {
+    #title {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 282.40px) and (max-width: 348px) { /*348*/
+    #title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 282.40px) {
+    #title {
+        font-size: 1.9rem;
+    }
+}

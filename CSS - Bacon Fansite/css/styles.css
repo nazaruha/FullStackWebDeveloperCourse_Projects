@@ -1,0 +1,35 @@
+/**********************TAG SELECTORS**************************/
+
+h1 {
+  color : #E64848;
+  font-size: 150px;
+}
+
+/* For all imgs works
+img {
+  background-color: #E64848;
+}
+*/
+
+img:hover {
+  background-color: gold;
+}
+
+/**********************CLASS SELECTORS**************************/
+.bacon {
+  background-color: #CFE8A9;
+}
+
+.broccoli {
+  background-color: #E64848;
+  height: 160px;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/**********************ID SELECTORS**************************/
+#heading {
+  color: blue; /*This style will override tag selector style (row 4)*/
+}
